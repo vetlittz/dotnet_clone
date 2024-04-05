@@ -38,5 +38,6 @@ jobs:
     - name: Build application
       run: 'mvn package -DskipTests'
 
+
     - name: Test application
       run: 'mvn test'
