@@ -17,7 +17,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '3.1.x'  # Specify the version of .NET Core SDK to install
+          dotnet-version: '6.0.x'  # Specify the version of .NET Core SDK to install, ensure it's compatible with .NET 6.0
 
       - name: Restore dependencies
         run: dotnet restore  # Download dependencies
